@@ -2191,3 +2191,5 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:transformation
 [05Dec2024 22:36:05.639] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jony33D[/100.99.110.121:50467] logged in with entity id 664 at (-1103.0092375274994, 70.5625, 369.2222811487563)
 [05Dec2024 22:36:05.813] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D joined the game
 [05Dec2024 22:36:08.955] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[05Dec2024 22:52:23.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jony33D: Set own game mode to Creative Mode]
+[05Dec2024 22:54:58.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [jony33D: Set own game mode to Survival Mode]
