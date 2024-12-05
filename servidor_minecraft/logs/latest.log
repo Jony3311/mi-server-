@@ -1,254 +1,66 @@
-[05Dec2024 16:49:54.287] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[05Dec2024 16:49:54.291] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
-[05Dec2024 16:49:55.988] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[05Dec2024 16:49:56.081] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/mi-server-/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[05Dec2024 16:49:56.547] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mi-server-/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[05Dec2024 16:49:56.555] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mi-server-/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[05Dec2024 16:49:56.558] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mi-server-/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[05Dec2024 16:49:56.560] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mi-server-/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[05Dec2024 16:49:56.846] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[05Dec2024 16:49:56.848] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
-[05Dec2024 16:50:00.836] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[05Dec2024 16:50:01.046] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[05Dec2024 16:50:01.135] [main/WARN] [mixin/]: Reference map 'mixins.create_sa.refmap.json' for mixins.create_sa.json could not be read. If this is a development environment you can ignore this message
-[05Dec2024 16:50:01.366] [main/WARN] [mixin/]: Reference map 'tfmg.refmap.json' for tfmg.mixins.json could not be read. If this is a development environment you can ignore this message
-[05Dec2024 16:50:04.333] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[05Dec2024 16:50:21.089] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
-[05Dec2024 16:50:21.818] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[05Dec2024 16:50:22.715] [modloading-worker-0/INFO] [Railways/]: Steam 'n' Rails v1.6.7 initializing! Commit hash: 0a7cc000d6c7a1419919bc3e315bc62932287eb9 on Create version: 0.5.1j on platform: Forge
-[05Dec2024 16:50:23.697] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
-[05Dec2024 16:50:24.250] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
-[05Dec2024 16:50:24.281] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 0 milliseconds
-[05Dec2024 16:50:24.297] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
-[05Dec2024 16:50:24.298] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_lance_collision
-[05Dec2024 16:50:24.306] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
-[05Dec2024 16:50:24.307] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
-[05Dec2024 16:50:24.308] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
-[05Dec2024 16:50:24.309] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
-[05Dec2024 16:50:24.310] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
-[05Dec2024 16:50:24.319] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
-[05Dec2024 16:50:24.319] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
-[05Dec2024 16:50:24.320] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
-[05Dec2024 16:50:24.321] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
-[05Dec2024 16:50:24.452] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[05Dec2024 16:50:24.452] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[05Dec2024 16:50:33.470] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.item.PrimedTnt from class com.drmangotea.tfmg.items.weapons.explosives.napalm.NapalmBombEntity
-[05Dec2024 16:50:34.411] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/mi-server-/servidor_minecraft/config/travelersbackpack-common.toml is not correct. Correcting
-[05Dec2024 16:50:34.430] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Dec2024 16:50:34.431] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Dec2024 16:50:34.431] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.leatherTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Dec2024 16:50:34.432] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.leatherTierBackpack.inventorySlotCount was corrected from null to its default, 27. 
-[05Dec2024 16:50:34.432] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.leatherTierBackpack.toolSlotCount was corrected from null to its default, 2. 
-[05Dec2024 16:50:34.433] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.leatherTierBackpack.tankCapacity was corrected from null to its default, 3000. 
-[05Dec2024 16:50:34.433] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.ironTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Dec2024 16:50:34.434] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.ironTierBackpack.inventorySlotCount was corrected from null to its default, 36. 
-[05Dec2024 16:50:34.436] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.ironTierBackpack.toolSlotCount was corrected from null to its default, 3. 
-[05Dec2024 16:50:34.438] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.ironTierBackpack.tankCapacity was corrected from null to its default, 4000. 
-[05Dec2024 16:50:34.438] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.goldTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Dec2024 16:50:34.438] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.goldTierBackpack.inventorySlotCount was corrected from null to its default, 45. 
-[05Dec2024 16:50:34.439] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.goldTierBackpack.toolSlotCount was corrected from null to its default, 4. 
-[05Dec2024 16:50:34.441] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.goldTierBackpack.tankCapacity was corrected from null to its default, 5000. 
-[05Dec2024 16:50:34.442] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.diamondTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Dec2024 16:50:34.444] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.diamondTierBackpack.inventorySlotCount was corrected from null to its default, 54. 
-[05Dec2024 16:50:34.444] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.diamondTierBackpack.toolSlotCount was corrected from null to its default, 5. 
-[05Dec2024 16:50:34.445] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.diamondTierBackpack.tankCapacity was corrected from null to its default, 6000. 
-[05Dec2024 16:50:34.445] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.netheriteTierBackpack was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Dec2024 16:50:34.446] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.netheriteTierBackpack.inventorySlotCount was corrected from null to its default, 63. 
-[05Dec2024 16:50:34.446] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.netheriteTierBackpack.toolSlotCount was corrected from null to its default, 6. 
-[05Dec2024 16:50:34.447] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.netheriteTierBackpack.tankCapacity was corrected from null to its default, 7000. 
-[05Dec2024 16:50:34.448] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.enableTierUpgrades was corrected from null to its default, true. 
-[05Dec2024 16:50:34.450] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.enableCraftingUpgrade was corrected from null to its default, true. 
-[05Dec2024 16:50:34.451] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.craftingUpgradeByDefault was corrected from null to its default, false. 
-[05Dec2024 16:50:34.452] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.craftingSavesItems was corrected from null to its default, true. 
-[05Dec2024 16:50:34.452] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.enableBackpackBlockWearable was corrected from null to its default, true. 
-[05Dec2024 16:50:34.453] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.enableBackpackRightClickUnequip was corrected from null to its default, false. 
-[05Dec2024 16:50:34.453] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.allowOnlyEquippedBackpack was corrected from null to its default, false. 
-[05Dec2024 16:50:34.457] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.invulnerableBackpack was corrected from null to its default, true. 
-[05Dec2024 16:50:34.458] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.toolSlotsAcceptSwords was corrected from null to its default, true. 
-[05Dec2024 16:50:34.459] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.toolSlotsAcceptableItems was corrected from null to its default, []. 
-[05Dec2024 16:50:34.461] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.toolSlotsAcceptEverything was corrected from null to its default, false. 
-[05Dec2024 16:50:34.462] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.blacklistedItems was corrected from null to its default, []. 
-[05Dec2024 16:50:34.462] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.allowShulkerBoxes was corrected from null to its default, false. 
-[05Dec2024 16:50:34.463] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.voidProtection was corrected from null to its default, true. 
-[05Dec2024 16:50:34.463] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.backpackDeathPlace was corrected from null to its default, true. 
-[05Dec2024 16:50:34.463] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.backpackForceDeathPlace was corrected from null to its default, false. 
-[05Dec2024 16:50:34.466] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.enableSleepingBagSpawnPoint was corrected from null to its default, false. 
-[05Dec2024 16:50:34.466] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackSettings.curiosIntegration was corrected from null to its default, false. 
-[05Dec2024 16:50:34.467] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Dec2024 16:50:34.469] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.enableLoot was corrected from null to its default, true. 
-[05Dec2024 16:50:34.470] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.spawnEntitiesWithBackpack was corrected from null to its default, true. 
-[05Dec2024 16:50:34.473] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.chance was corrected from null to its default, 0.005. 
-[05Dec2024 16:50:34.474] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.possibleOverworldEntityTypes was corrected from null to its default, [minecraft:zombie, minecraft:skeleton, minecraft:enderman]. 
-[05Dec2024 16:50:34.474] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.possibleNetherEntityTypes was corrected from null to its default, [minecraft:wither_skeleton, minecraft:piglin]. 
-[05Dec2024 16:50:34.476] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.overworldBackpacks was corrected from null to its default, [travelersbackpack:standard, travelersbackpack:diamond, travelersbackpack:gold, travelersbackpack:emerald, travelersbackpack:iron, travelersbackpack:lapis, travelersbackpack:redstone, travelersbackpack:coal, travelersbackpack:bookshelf, travelersbackpack:sandstone, travelersbackpack:snow, travelersbackpack:sponge, travelersbackpack:cake, travelersbackpack:cactus, travelersbackpack:hay, travelersbackpack:melon, travelersbackpack:pumpkin, travelersbackpack:creeper, travelersbackpack:enderman, travelersbackpack:skeleton, travelersbackpack:spider, travelersbackpack:bee, travelersbackpack:wolf, travelersbackpack:fox, travelersbackpack:ocelot, travelersbackpack:horse, travelersbackpack:cow, travelersbackpack:pig, travelersbackpack:sheep, travelersbackpack:chicken, travelersbackpack:squid]. 
-[05Dec2024 16:50:34.477] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.netherBackpacks was corrected from null to its default, [travelersbackpack:quartz, travelersbackpack:nether, travelersbackpack:blaze, travelersbackpack:ghast, travelersbackpack:magma_cube, travelersbackpack:wither]. 
-[05Dec2024 16:50:34.477] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.world.enableVillagerTrade was corrected from null to its default, true. 
-[05Dec2024 16:50:34.480] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackAbilities was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Dec2024 16:50:34.480] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackAbilities.enableBackpackAbilities was corrected from null to its default, true. 
-[05Dec2024 16:50:34.481] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackAbilities.forceAbilityEnabled was corrected from null to its default, true. 
-[05Dec2024 16:50:34.481] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackAbilities.allowedAbilities was corrected from null to its default, [travelersbackpack:netherite, travelersbackpack:diamond, travelersbackpack:gold, travelersbackpack:emerald, travelersbackpack:iron, travelersbackpack:lapis, travelersbackpack:redstone, travelersbackpack:bookshelf, travelersbackpack:sponge, travelersbackpack:cake, travelersbackpack:cactus, travelersbackpack:melon, travelersbackpack:pumpkin, travelersbackpack:creeper, travelersbackpack:dragon, travelersbackpack:enderman, travelersbackpack:blaze, travelersbackpack:ghast, travelersbackpack:magma_cube, travelersbackpack:spider, travelersbackpack:wither, travelersbackpack:bat, travelersbackpack:bee, travelersbackpack:ocelot, travelersbackpack:cow, travelersbackpack:chicken, travelersbackpack:squid]. 
-[05Dec2024 16:50:34.482] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.slownessDebuff was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Dec2024 16:50:34.482] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.slownessDebuff.tooManyBackpacksSlowness was corrected from null to its default, false. 
-[05Dec2024 16:50:34.483] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.slownessDebuff.maxNumberOfBackpacks was corrected from null to its default, 3. 
-[05Dec2024 16:50:34.483] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.slownessDebuff.slownessPerExcessedBackpack was corrected from null to its default, 1.0. 
-[05Dec2024 16:50:34.996] [modloading-worker-0/INFO] [io.github.jamalam360.rightclickharvest.RightClickHarvestModInit/]: Initialized
-[05Dec2024 16:50:35.149] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
-[05Dec2024 16:50:35.192] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[05Dec2024 16:50:35.424] [main/INFO] [journeymap/]: Initializing Packet Registries
-[05Dec2024 16:50:35.507] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[05Dec2024 16:50:35.512] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[05Dec2024 16:50:35.513] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[05Dec2024 16:50:35.513] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[05Dec2024 16:50:35.629] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
-[05Dec2024 16:50:35.631] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[05Dec2024 16:50:35.787] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[05Dec2024 16:50:35.787] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[05Dec2024 16:50:35.867] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.16 Target: null
-[05Dec2024 16:50:35.872] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[05Dec2024 16:50:35.918] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.8.6 Target: null
-[05Dec2024 16:50:35.920] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AdditionalStructures.json
-[05Dec2024 16:50:35.931] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Found status: UP_TO_DATE Current: 4.2.2 Target: null
-[05Dec2024 16:50:35.932] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [catalogue] Starting version check at https://mrcrayfish.com/modupdatejson?id=catalogue
-[05Dec2024 16:50:36.478] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [catalogue] Found status: BETA Current: 1.8.0 Target: 1.8.0
-[05Dec2024 16:50:36.479] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[05Dec2024 16:50:36.852] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
-[05Dec2024 16:50:36.852] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[05Dec2024 16:50:37.021] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
-[05Dec2024 16:50:44.597] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05Dec2024 16:50:45.166] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:standard Expected: 2984 Got: 4226
-[05Dec2024 16:50:45.167] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:netherite Expected: 2985 Got: 4227
-[05Dec2024 16:50:45.168] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:diamond Expected: 2986 Got: 4228
-[05Dec2024 16:50:45.168] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:gold Expected: 2987 Got: 4229
-[05Dec2024 16:50:45.169] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:emerald Expected: 2988 Got: 4230
-[05Dec2024 16:50:45.169] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:iron Expected: 2989 Got: 4231
-[05Dec2024 16:50:45.172] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:lapis Expected: 2990 Got: 4232
-[05Dec2024 16:50:45.173] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:redstone Expected: 2991 Got: 4233
-[05Dec2024 16:50:45.173] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:coal Expected: 2992 Got: 4234
-[05Dec2024 16:50:45.174] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:quartz Expected: 2993 Got: 4235
-[05Dec2024 16:50:45.174] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:bookshelf Expected: 2994 Got: 4236
-[05Dec2024 16:50:45.174] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:end Expected: 2995 Got: 4237
-[05Dec2024 16:50:45.175] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:nether Expected: 2996 Got: 4238
-[05Dec2024 16:50:45.176] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:sandstone Expected: 2997 Got: 4239
-[05Dec2024 16:50:45.177] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:snow Expected: 2998 Got: 4240
-[05Dec2024 16:50:45.177] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:sponge Expected: 2999 Got: 4241
-[05Dec2024 16:50:45.179] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:cake Expected: 3000 Got: 4242
-[05Dec2024 16:50:45.179] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:cactus Expected: 3001 Got: 4243
-[05Dec2024 16:50:45.180] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:hay Expected: 3002 Got: 4244
-[05Dec2024 16:50:45.180] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:melon Expected: 3003 Got: 4245
-[05Dec2024 16:50:45.183] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:pumpkin Expected: 3004 Got: 4246
-[05Dec2024 16:50:45.183] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:creeper Expected: 3005 Got: 4247
-[05Dec2024 16:50:45.183] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:dragon Expected: 3006 Got: 4248
-[05Dec2024 16:50:45.184] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:enderman Expected: 3007 Got: 4249
-[05Dec2024 16:50:45.184] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:blaze Expected: 3008 Got: 4250
-[05Dec2024 16:50:45.185] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:ghast Expected: 3009 Got: 4251
-[05Dec2024 16:50:45.185] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:magma_cube Expected: 3010 Got: 4252
-[05Dec2024 16:50:45.185] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:skeleton Expected: 3011 Got: 4253
-[05Dec2024 16:50:45.186] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:spider Expected: 3012 Got: 4254
-[05Dec2024 16:50:45.188] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:wither Expected: 3013 Got: 4255
-[05Dec2024 16:50:45.194] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:bat Expected: 3014 Got: 4256
-[05Dec2024 16:50:45.194] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:bee Expected: 3015 Got: 4257
-[05Dec2024 16:50:45.195] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:wolf Expected: 3016 Got: 4258
-[05Dec2024 16:50:45.195] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:fox Expected: 3017 Got: 4259
-[05Dec2024 16:50:45.195] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:ocelot Expected: 3018 Got: 4260
-[05Dec2024 16:50:45.196] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:horse Expected: 3019 Got: 4261
-[05Dec2024 16:50:45.196] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:cow Expected: 3020 Got: 4262
-[05Dec2024 16:50:45.197] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:pig Expected: 3021 Got: 4263
-[05Dec2024 16:50:45.198] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:sheep Expected: 3022 Got: 4264
-[05Dec2024 16:50:45.199] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:chicken Expected: 3023 Got: 4265
-[05Dec2024 16:50:45.200] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:squid Expected: 3024 Got: 4266
-[05Dec2024 16:50:45.200] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:villager Expected: 3025 Got: 4267
-[05Dec2024 16:50:45.205] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:iron_golem Expected: 3026 Got: 4268
-[05Dec2024 16:50:45.205] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:white_sleeping_bag Expected: 3027 Got: 4269
-[05Dec2024 16:50:45.206] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:orange_sleeping_bag Expected: 3028 Got: 4270
-[05Dec2024 16:50:45.206] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:magenta_sleeping_bag Expected: 3029 Got: 4271
-[05Dec2024 16:50:45.208] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:light_blue_sleeping_bag Expected: 3030 Got: 4272
-[05Dec2024 16:50:45.208] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:yellow_sleeping_bag Expected: 3031 Got: 4273
-[05Dec2024 16:50:45.208] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:lime_sleeping_bag Expected: 3032 Got: 4274
-[05Dec2024 16:50:45.211] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:pink_sleeping_bag Expected: 3033 Got: 4275
-[05Dec2024 16:50:45.211] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:gray_sleeping_bag Expected: 3034 Got: 4276
-[05Dec2024 16:50:45.212] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:light_gray_sleeping_bag Expected: 3035 Got: 4277
-[05Dec2024 16:50:45.212] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:cyan_sleeping_bag Expected: 3036 Got: 4278
-[05Dec2024 16:50:45.212] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:purple_sleeping_bag Expected: 3037 Got: 4279
-[05Dec2024 16:50:45.213] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:blue_sleeping_bag Expected: 3038 Got: 4280
-[05Dec2024 16:50:45.213] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:brown_sleeping_bag Expected: 3039 Got: 4281
-[05Dec2024 16:50:45.213] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:green_sleeping_bag Expected: 3040 Got: 4282
-[05Dec2024 16:50:45.216] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:red_sleeping_bag Expected: 3041 Got: 4283
-[05Dec2024 16:50:45.216] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:block: Object did not get ID it asked for. Name: travelersbackpack:black_sleeping_bag Expected: 3042 Got: 4284
-[05Dec2024 16:50:45.217] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:fluid: Object did not get ID it asked for. Name: travelersbackpack:potion_fluid Expected: 17 Got: 67
-[05Dec2024 16:50:45.218] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:fluid: Object did not get ID it asked for. Name: travelersbackpack:potion_flowing Expected: 18 Got: 68
-[05Dec2024 16:50:45.233] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:standard Expected: 5029 Got: 7406
-[05Dec2024 16:50:45.240] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:netherite Expected: 5030 Got: 7407
-[05Dec2024 16:50:45.241] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:diamond Expected: 5031 Got: 7408
-[05Dec2024 16:50:45.241] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:gold Expected: 5032 Got: 7409
-[05Dec2024 16:50:45.241] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:emerald Expected: 5033 Got: 7410
-[05Dec2024 16:50:45.242] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:iron Expected: 5034 Got: 7411
-[05Dec2024 16:50:45.242] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:lapis Expected: 5035 Got: 7412
-[05Dec2024 16:50:45.242] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:redstone Expected: 5036 Got: 7413
-[05Dec2024 16:50:45.243] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:coal Expected: 5037 Got: 7414
-[05Dec2024 16:50:45.249] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:quartz Expected: 5038 Got: 7415
-[05Dec2024 16:50:45.249] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:bookshelf Expected: 5039 Got: 7416
-[05Dec2024 16:50:45.249] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:end Expected: 5040 Got: 7417
-[05Dec2024 16:50:45.250] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:nether Expected: 5041 Got: 7418
-[05Dec2024 16:50:45.250] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:sandstone Expected: 5042 Got: 7419
-[05Dec2024 16:50:45.251] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:snow Expected: 5043 Got: 7420
-[05Dec2024 16:50:45.252] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:sponge Expected: 5044 Got: 7421
-[05Dec2024 16:50:45.253] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:cake Expected: 5045 Got: 7422
-[05Dec2024 16:50:45.254] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:cactus Expected: 5046 Got: 7423
-[05Dec2024 16:50:45.254] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:hay Expected: 5047 Got: 7424
-[05Dec2024 16:50:45.254] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:melon Expected: 5048 Got: 7425
-[05Dec2024 16:50:45.255] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:pumpkin Expected: 5049 Got: 7426
-[05Dec2024 16:50:45.255] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:creeper Expected: 5050 Got: 7427
-[05Dec2024 16:50:45.259] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:dragon Expected: 5051 Got: 7428
-[05Dec2024 16:50:45.259] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:enderman Expected: 5052 Got: 7429
-[05Dec2024 16:50:45.259] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:blaze Expected: 5053 Got: 7430
-[05Dec2024 16:50:45.260] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:ghast Expected: 5054 Got: 7431
-[05Dec2024 16:50:45.260] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:magma_cube Expected: 5055 Got: 7432
-[05Dec2024 16:50:45.260] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:skeleton Expected: 5056 Got: 7433
-[05Dec2024 16:50:45.261] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:spider Expected: 5057 Got: 7434
-[05Dec2024 16:50:45.261] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:wither Expected: 5058 Got: 7435
-[05Dec2024 16:50:45.261] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:bat Expected: 5059 Got: 7436
-[05Dec2024 16:50:45.262] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:bee Expected: 5060 Got: 7437
-[05Dec2024 16:50:45.263] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:wolf Expected: 5061 Got: 7438
-[05Dec2024 16:50:45.264] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:fox Expected: 5062 Got: 7439
-[05Dec2024 16:50:45.264] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:ocelot Expected: 5063 Got: 7440
-[05Dec2024 16:50:45.265] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:horse Expected: 5064 Got: 7441
-[05Dec2024 16:50:45.265] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:cow Expected: 5065 Got: 7442
-[05Dec2024 16:50:45.269] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:pig Expected: 5066 Got: 7443
-[05Dec2024 16:50:45.273] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:sheep Expected: 5067 Got: 7444
-[05Dec2024 16:50:45.273] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:chicken Expected: 5068 Got: 7445
-[05Dec2024 16:50:45.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:squid Expected: 5069 Got: 7446
-[05Dec2024 16:50:45.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:villager Expected: 5070 Got: 7447
-[05Dec2024 16:50:45.275] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:iron_golem Expected: 5071 Got: 7448
-[05Dec2024 16:50:45.276] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:white_sleeping_bag Expected: 5072 Got: 7449
-[05Dec2024 16:50:45.278] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:orange_sleeping_bag Expected: 5073 Got: 7450
-[05Dec2024 16:50:45.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:magenta_sleeping_bag Expected: 5074 Got: 7451
-[05Dec2024 16:50:45.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:light_blue_sleeping_bag Expected: 5075 Got: 7452
-[05Dec2024 16:50:45.280] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:yellow_sleeping_bag Expected: 5076 Got: 7453
-[05Dec2024 16:50:45.281] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:lime_sleeping_bag Expected: 5077 Got: 7454
-[05Dec2024 16:50:45.281] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:pink_sleeping_bag Expected: 5078 Got: 7455
-[05Dec2024 16:50:45.283] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:gray_sleeping_bag Expected: 5079 Got: 7456
-[05Dec2024 16:50:45.285] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:light_gray_sleeping_bag Expected: 5080 Got: 7457
-[05Dec2024 16:50:45.286] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:cyan_sleeping_bag Expected: 5081 Got: 7458
-[05Dec2024 16:50:45.288] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:purple_sleeping_bag Expected: 5082 Got: 7459
-[05Dec2024 16:50:45.290] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:blue_sleeping_bag Expected: 5083 Got: 7460
-[05Dec2024 16:50:45.290] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:brown_sleeping_bag Expected: 5084 Got: 7461
-[05Dec2024 16:50:45.290] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:green_sleeping_bag Expected: 5085 Got: 7462
-[05Dec2024 16:50:45.291] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:red_sleeping_bag Expected: 5086 Got: 7463
-[05Dec2024 16:50:45.293] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:black_sleeping_bag Expected: 5087 Got: 7464
-[05Dec2024 16:50:45.295] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:backpack_tank Expected: 5088 Got: 7465
-[05Dec2024 16:50:45.295] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:hose Expected: 5089 Got: 7466
-[05Dec2024 16:50:45.295] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:hose_nozzle Expected: 5090 Got: 7467
-[05Dec2024 16:50:45.299] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:blank_upgrade Expected: 5091 Got: 7468
-[05Dec2024 16:50:45.299] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:iron_tier_upgrade Expected: 5092 Got: 7469
-[05Dec2024 16:50:45.301] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:gold_tier_upgrade Expected: 5093 Got: 7470
-[05Dec2024 16:50:45.301] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:diamond_tier_upgrade Expected: 5094 Got: 7471
-[05Dec2024 16:50:45.302] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:netherite_tier_upgrade Expected: 5095 Got: 7472
-[05Dec2024 16:50:45.302] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:item: Object did not get ID it asked for. Name: travelersbackpack:crafting_upgrade Expected: 5096 Got: 7473
-[05Dec2024 16:50:45.305] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: travelersbackpack:backpack Expected: 343 Got: 420
-[05Dec2024 16:50:51.158] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mi-server-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/assets/.mcassetsroot' uses unexpected schema
-[05Dec2024 16:50:51.159] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mi-server-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/data/.mcassetsroot' uses unexpected schema
-[05Dec2024 16:50:54.108] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[05Dec2024 16:50:55.102] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file redeco:blocks/oak_sword_mount from redeco:loot_tables/blocks/oak_sword_mount.json
+[05Dec2024 17:24:31.742] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[05Dec2024 17:24:31.746] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[05Dec2024 17:24:36.749] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[05Dec2024 17:24:37.023] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/mi-server-/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[05Dec2024 17:24:37.741] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mi-server-/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[05Dec2024 17:24:37.745] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mi-server-/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Dec2024 17:24:37.752] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mi-server-/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Dec2024 17:24:37.753] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mi-server-/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Dec2024 17:24:38.969] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[05Dec2024 17:24:38.971] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[05Dec2024 17:24:46.678] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[05Dec2024 17:24:46.946] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[05Dec2024 17:24:47.164] [main/WARN] [mixin/]: Reference map 'mixins.create_sa.refmap.json' for mixins.create_sa.json could not be read. If this is a development environment you can ignore this message
+[05Dec2024 17:24:47.595] [main/WARN] [mixin/]: Reference map 'tfmg.refmap.json' for tfmg.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Dec2024 17:24:52.081] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[05Dec2024 17:25:22.645] [modloading-worker-0/INFO] [Dungeon Crawl/]: Here we go! Launching Dungeon Crawl 2.3.14...
+[05Dec2024 17:25:23.770] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[05Dec2024 17:25:25.112] [modloading-worker-0/INFO] [Railways/]: Steam 'n' Rails v1.6.7 initializing! Commit hash: 0a7cc000d6c7a1419919bc3e315bc62932287eb9 on Create version: 0.5.1j on platform: Forge
+[05Dec2024 17:25:27.018] [modloading-worker-0/INFO] [Railways/]: Registered bogey styles from railways
+[05Dec2024 17:25:27.954] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_long_reach_attack
+[05Dec2024 17:25:27.962] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[05Dec2024 17:25:28.007] [modloading-worker-0/INFO] [Railways/]: Registering data fixers
+[05Dec2024 17:25:28.074] [modloading-worker-0/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 0 Datafixer optimizations took 2 milliseconds
+[05Dec2024 17:25:28.088] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Hex Casting
+[05Dec2024 17:25:28.104] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Oh The Biomes You'll Go
+[05Dec2024 17:25:28.110] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Blue Skies
+[05Dec2024 17:25:28.111] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Twilight Forest
+[05Dec2024 17:25:28.119] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Biomes O' Plenty
+[05Dec2024 17:25:28.122] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Nature's Spirit
+[05Dec2024 17:25:28.126] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Dreams and Desires
+[05Dec2024 17:25:28.128] [modloading-worker-0/INFO] [Railways/]: Registering tracks for Quark
+[05Dec2024 17:25:28.130] [modloading-worker-0/INFO] [Railways/]: Registering tracks for TerraFirmaCraft
+[05Dec2024 17:25:28.289] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[05Dec2024 17:25:28.290] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[05Dec2024 17:25:41.292] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.item.PrimedTnt from class com.drmangotea.tfmg.items.weapons.explosives.napalm.NapalmBombEntity
+[05Dec2024 17:25:42.359] [modloading-worker-0/INFO] [io.github.jamalam360.rightclickharvest.RightClickHarvestModInit/]: Initialized
+[05Dec2024 17:25:42.501] [modloading-worker-0/INFO] [Dungeon Crawl/]: Common Setup
+[05Dec2024 17:25:42.571] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[05Dec2024 17:25:42.723] [main/INFO] [journeymap/]: Initializing Packet Registries
+[05Dec2024 17:25:42.738] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: BETA Current: 0.6.11-13 Target: null
+[05Dec2024 17:25:42.738] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[05Dec2024 17:25:42.797] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[05Dec2024 17:25:42.798] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[05Dec2024 17:25:42.799] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[05Dec2024 17:25:42.800] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[05Dec2024 17:25:42.843] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[05Dec2024 17:25:42.844] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[05Dec2024 17:25:42.924] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.16 Target: null
+[05Dec2024 17:25:42.935] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[05Dec2024 17:25:42.966] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.8.6 Target: null
+[05Dec2024 17:25:42.967] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AdditionalStructures.json
+[05Dec2024 17:25:42.980] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Found status: UP_TO_DATE Current: 4.2.2 Target: null
+[05Dec2024 17:25:42.980] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [catalogue] Starting version check at https://mrcrayfish.com/modupdatejson?id=catalogue
+[05Dec2024 17:25:43.563] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [catalogue] Found status: BETA Current: 1.8.0 Target: 1.8.0
+[05Dec2024 17:25:43.564] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[05Dec2024 17:25:43.934] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[05Dec2024 17:25:43.934] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[05Dec2024 17:25:44.067] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.12
+[05Dec2024 17:25:51.202] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05Dec2024 17:25:57.282] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mi-server-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/assets/.mcassetsroot' uses unexpected schema
+[05Dec2024 17:25:57.283] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mi-server-/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23165!/data/.mcassetsroot' uses unexpected schema
+[05Dec2024 17:25:59.430] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[05Dec2024 17:26:00.214] [Worker-Main-2/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file redeco:blocks/oak_sword_mount from redeco:loot_tables/blocks/oak_sword_mount.json
 com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:526) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at net.minecraft.util.GsonHelper.m_263475_(GsonHelper.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
@@ -272,7 +84,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 	at com.google.gson.internal.bind.TypeAdapters$34$1.read(TypeAdapters.java:1007) ~[gson-2.10.jar%2372!/:?]
 	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:524) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	... 11 more
-[05Dec2024 16:50:55.885] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:redeco:blocks/soul_terrarium
+[05Dec2024 17:26:00.980] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:redeco:blocks/soul_terrarium
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'redeco:soul_terrarium'
 	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -324,104 +136,104 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[05Dec2024 16:50:57.347] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamlettucecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.349] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamparsnipcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.349] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamgarliccrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.350] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamwaterchestnutcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.355] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamartichokecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.356] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcattailcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.356] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamturnipcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.356] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamradishcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.357] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamchilipeppercrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.357] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamjicamacrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.358] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamnettlescrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.358] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamblueberrycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.359] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamnopalescrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.359] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamspiceleafcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.359] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcactusfruitcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.360] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcantaloupecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.360] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamkiwicrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.361] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcottoncrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.362] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcalabashcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.362] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamstrawberrycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.362] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsweetpotatocrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.363] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pammulberrycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.363] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambrusselsproutcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.364] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtomatocrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.364] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcorncrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.365] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcloudberrycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.365] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamonioncrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.366] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pameggplantcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.366] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamaloecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.367] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsisalcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.367] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamyuccacrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.368] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambroccolicrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.368] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamrhubarbcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.368] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pammilletcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.369] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambarleycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.369] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtarocrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.370] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamoatscrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.371] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamagavecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.371] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcandleberrycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.372] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcassavacrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.372] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtealeafcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.373] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pampapyruscrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.373] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pampeanutcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.373] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcucumbercrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.374] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pammustardseedscrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.374] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamrutabagacrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.375] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamscallioncrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.375] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambarrelcactuscrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.376] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamkohlrabicrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.376] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsesameseedscrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.377] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamhuckleberrycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.378] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamkalecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.378] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamzucchinicrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.379] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcranberrycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.379] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamguaranacrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.380] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamgrapecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.380] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pampineapplecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.381] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamlotuscrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.381] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamarrowrootcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.382] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamlentilcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.382] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamelderberrycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.383] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambeancrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.383] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamamaranthcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.384] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamchickpeacrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.384] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamgingercrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.385] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamleekcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.385] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamwintersquashcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.386] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamryecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.386] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambellpeppercrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.387] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamspinachcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.387] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamalfalfacrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.388] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamasparaguscrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.389] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcanolacrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.389] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamokracrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.390] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsoybeancrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.390] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamricecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.391] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamquinoacrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.391] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsorghumcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.392] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamwhitemushroomcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.392] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamblackberrycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.393] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcauliflowercrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.394] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamjuniperberrycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.395] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcelerycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.395] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamjutecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.396] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtomatillocrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.396] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamgreengrapecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.397] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamkenafcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.397] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcoffeebeancrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.398] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambokchoycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.399] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamchiacrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.399] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtrufflecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.400] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamflaxcrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.401] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsunchokecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.402] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamwolfberrycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.402] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcabbagecrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.403] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pampeascrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.403] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamraspberrycrop}.pools[0].entries[0]: Unreachable entry!
-[05Dec2024 16:50:57.438] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete_q
+[05Dec2024 17:26:02.638] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamlettucecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.639] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamparsnipcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.640] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamgarliccrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.640] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamwaterchestnutcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.641] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamartichokecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.641] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcattailcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.641] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamturnipcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.642] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamradishcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.642] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamchilipeppercrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.642] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamjicamacrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.643] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamnettlescrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.643] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamblueberrycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.644] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamnopalescrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.644] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamspiceleafcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.645] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcactusfruitcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.646] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcantaloupecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.647] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamkiwicrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.647] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcottoncrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.647] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcalabashcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.648] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamstrawberrycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.648] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsweetpotatocrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.648] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pammulberrycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.649] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambrusselsproutcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.650] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtomatocrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.650] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcorncrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.652] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcloudberrycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.653] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamonioncrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.653] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pameggplantcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.656] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamaloecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.656] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsisalcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.656] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamyuccacrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.657] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambroccolicrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.657] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamrhubarbcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.659] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pammilletcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.659] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambarleycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.659] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtarocrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.661] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamoatscrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.664] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamagavecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.665] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcandleberrycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.665] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcassavacrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.666] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtealeafcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.666] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pampapyruscrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.667] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pampeanutcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.667] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcucumbercrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.667] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pammustardseedscrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.668] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamrutabagacrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.668] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamscallioncrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.669] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambarrelcactuscrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.669] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamkohlrabicrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.669] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsesameseedscrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.671] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamhuckleberrycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.671] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamkalecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.672] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamzucchinicrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.672] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcranberrycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.674] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamguaranacrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.674] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamgrapecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.674] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pampineapplecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.676] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamlotuscrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.680] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamarrowrootcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.681] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamlentilcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.681] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamelderberrycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.681] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambeancrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.682] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamamaranthcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.682] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamchickpeacrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.682] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamgingercrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.683] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamleekcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.683] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamwintersquashcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.683] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamryecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.683] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambellpeppercrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.684] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamspinachcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.684] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamalfalfacrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.684] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamasparaguscrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.685] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcanolacrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.685] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamokracrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.686] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsoybeancrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.686] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamricecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.688] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamquinoacrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.690] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsorghumcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.691] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamwhitemushroomcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.691] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamblackberrycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.691] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcauliflowercrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.692] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamjuniperberrycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.693] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcelerycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.693] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamjutecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.693] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtomatillocrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.694] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamgreengrapecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.694] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamkenafcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.694] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcoffeebeancrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.695] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambokchoycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.695] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamchiacrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.696] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtrufflecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.696] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamflaxcrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.697] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsunchokecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.697] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamwolfberrycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.697] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcabbagecrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.697] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pampeascrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.697] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamraspberrycrop}.pools[0].entries[0]: Unreachable entry!
+[05Dec2024 17:26:02.727] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -458,7 +270,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.509] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/epic_party_light_bulb
+[05Dec2024 17:26:02.784] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/epic_party_light_bulb
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:epic_party_light_bulb'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
@@ -489,7 +301,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:epic_party_light_bulb'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.522] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/white_concrete_q
+[05Dec2024 17:26:02.799] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/white_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -526,8 +338,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.542] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/amogus) specified a duration. Durations have no impact on this type of recipe.
-[05Dec2024 16:50:57.556] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/yellow_concrete_q
+[05Dec2024 17:26:02.830] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/amogus) specified a duration. Durations have no impact on this type of recipe.
+[05Dec2024 17:26:02.831] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/yellow_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -564,7 +376,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.560] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_dusk_stack
+[05Dec2024 17:26:02.840] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_dusk_stack
 com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:dusk_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -600,7 +412,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:dusk_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.566] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete
+[05Dec2024 17:26:02.851] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/pink_concrete
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -637,7 +449,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.568] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_mahogany_tc_stack
+[05Dec2024 17:26:02.866] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_mahogany_tc_stack
 com.google.gson.JsonSyntaxException: Unknown item 'tropicraft:mahogany_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -673,7 +485,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tropicraft:mahogany_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.605] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_comet_stack
+[05Dec2024 17:26:02.899] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_comet_stack
 com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:comet_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -709,7 +521,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:comet_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.626] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_frostbright_stacked
+[05Dec2024 17:26:02.929] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_frostbright_stacked
 com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:frostbright_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -745,7 +557,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:frostbright_planks
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.637] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/gray_concrete_q
+[05Dec2024 17:26:02.942] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/gray_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -782,8 +594,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.678] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:industrial_blasting recipe (tfmg:industrial_blasting/steel) specified a duration. Durations have no impact on this type of recipe.
-[05Dec2024 16:50:57.682] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:palm_plank_stack
+[05Dec2024 17:26:02.959] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:industrial_blasting recipe (tfmg:industrial_blasting/steel) specified a duration. Durations have no impact on this type of recipe.
+[05Dec2024 17:26:02.967] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:palm_plank_stack
 com.google.gson.JsonSyntaxException: Unknown item 'biome_backlog:palm_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -819,7 +631,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'biome_backlog:palm_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.694] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/magenta_concrete_q
+[05Dec2024 17:26:02.980] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/magenta_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -856,7 +668,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.711] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_echo_stack
+[05Dec2024 17:26:02.998] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_echo_stack
 com.google.gson.JsonSyntaxException: Unknown item 'deeperdarker:echo_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -892,7 +704,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'deeperdarker:echo_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.735] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe pamhc2foodcore:melonpieitem
+[05Dec2024 17:26:03.025] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe pamhc2foodcore:melonpieitem
 com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:melonpieitem'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
@@ -923,7 +735,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:melonpieitem'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.743] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_mangrove_tf_stack
+[05Dec2024 17:26:03.030] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_mangrove_tf_stack
 com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:mangrove_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -959,7 +771,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:mangrove_plank
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.761] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:fractional_distillation/crude_oil
+[05Dec2024 17:26:03.046] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:fractional_distillation/crude_oil
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfmg:advanced_distillation'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -986,7 +798,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfmg:ad
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.771] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_darkwood_stack
+[05Dec2024 17:26:03.063] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_darkwood_stack
 com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:dark_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1022,7 +834,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:dark_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.784] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_skyroot_stack
+[05Dec2024 17:26:54.443] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_skyroot_stack
 com.google.gson.JsonSyntaxException: Unknown item 'aether:skyroot_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1058,7 +870,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'aether:skyroot_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.800] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_lunar_stack
+[05Dec2024 17:26:54.455] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_lunar_stack
 com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:lunar_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1094,7 +906,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:lunar_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.806] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe pamhc2foodcore:honeymuffinitem
+[05Dec2024 17:26:54.466] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe pamhc2foodcore:honeymuffinitem
 com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:honeymuffinitem'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
@@ -1125,7 +937,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:honeymuffinite
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.838] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/black_concrete_q
+[05Dec2024 17:26:54.490] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/black_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1162,7 +974,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.846] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_smogstem_stack
+[05Dec2024 17:26:54.502] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_smogstem_stack
 com.google.gson.JsonSyntaxException: Unknown item 'undergarden:smogstem_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1198,7 +1010,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'undergarden:smogstem_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.867] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/cyan_concrete_q
+[05Dec2024 17:26:54.511] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/cyan_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1235,8 +1047,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.870] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:polarizing recipe (tfmg:polarizing/magnetic_ingot) specified a duration. Durations have no impact on this type of recipe.
-[05Dec2024 16:50:57.871] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/cast_iron_distillation_output
+[05Dec2024 17:26:54.517] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:polarizing recipe (tfmg:polarizing/magnetic_ingot) specified a duration. Durations have no impact on this type of recipe.
+[05Dec2024 17:26:54.518] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/cast_iron_distillation_output
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:cast_iron_distillation_output'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
@@ -1267,7 +1079,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:cast_iron_distillation_o
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.884] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_crystallized_stack
+[05Dec2024 17:26:54.581] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_crystallized_stack
 com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:crystallized_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1303,7 +1115,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:crystallized_plank
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.904] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_timewood_stack
+[05Dec2024 17:26:54.587] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_timewood_stack
 com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:time_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1339,7 +1151,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:time_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.920] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_canopy_stack
+[05Dec2024 17:26:54.589] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_canopy_stack
 com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:canopy_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1375,7 +1187,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:canopy_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.927] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/green_concrete_q
+[05Dec2024 17:26:54.590] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/green_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1412,7 +1224,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.937] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_gray_concrete_q
+[05Dec2024 17:26:54.599] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_gray_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1449,7 +1261,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.961] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_maple_stack
+[05Dec2024 17:26:54.607] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_maple_stack
 com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:maple_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1485,7 +1297,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:maple_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.978] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_wigglewood_stack
+[05Dec2024 17:26:54.617] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_wigglewood_stack
 com.google.gson.JsonSyntaxException: Unknown item 'undergarden:wigglewood_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1521,7 +1333,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'undergarden:wigglewood_planks
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:57.986] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_twilight_oak_stack
+[05Dec2024 17:26:54.632] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_twilight_oak_stack
 com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:twilight_oak_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1557,7 +1369,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:twilight_oak_p
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.018] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_grongle_stack
+[05Dec2024 17:26:54.645] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_grongle_stack
 com.google.gson.JsonSyntaxException: Unknown item 'undergarden:grongle_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1593,7 +1405,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'undergarden:grongle_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.024] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe redeco:magenta_upholstery
+[05Dec2024 17:26:54.649] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe redeco:magenta_upholstery
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:mangenta_wool'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1629,7 +1441,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:mangenta_wool'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.029] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_palm_tc_stack
+[05Dec2024 17:26:54.656] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_palm_tc_stack
 com.google.gson.JsonSyntaxException: Unknown item 'tropicraft:palm_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1665,7 +1477,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tropicraft:palm_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.044] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/glass_cable_connector
+[05Dec2024 17:27:54.432] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/glass_cable_connector
 com.google.gson.JsonSyntaxException: Pattern references symbol 'G' but it's not defined in the key
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_44202_(ShapedRecipe.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.m_6729_(ShapedRecipe.java:310) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
@@ -1694,7 +1506,7 @@ com.google.gson.JsonSyntaxException: Pattern references symbol 'G' but it's not 
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.047] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/red_concrete_q
+[05Dec2024 17:27:54.440] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/red_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1731,7 +1543,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.056] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_minewood_stack
+[05Dec2024 17:27:54.448] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_minewood_stack
 com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:mining_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1767,7 +1579,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:mining_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.073] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/orange_concrete_q
+[05Dec2024 17:27:54.450] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/orange_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1804,7 +1616,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.077] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/cast_iron_distillation_controller
+[05Dec2024 17:27:54.452] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/cast_iron_distillation_controller
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:cast_iron_distillation_controller'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
@@ -1836,7 +1648,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:cast_iron_distillation_c
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.098] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe pamhc2foodcore:caramelcupcakeitem_x4
+[05Dec2024 17:27:54.468] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe pamhc2foodcore:caramelcupcakeitem_x4
 com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:caramelcupcakeitem'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
@@ -1867,7 +1679,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:caramelcupcake
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.110] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_stack_bluebright
+[05Dec2024 17:27:54.474] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_stack_bluebright
 com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:bluebright_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1903,7 +1715,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:bluebright_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.122] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/brown_concrete_q
+[05Dec2024 17:27:54.481] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/brown_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1940,7 +1752,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.134] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_blue_concrete_q
+[05Dec2024 17:27:54.484] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/light_blue_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -1977,8 +1789,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.143] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/steel) specified a duration. Durations have no impact on this type of recipe.
-[05Dec2024 16:50:58.158] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/lime_concrete_q
+[05Dec2024 17:27:54.486] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:casting recipe (tfmg:casting/steel) specified a duration. Durations have no impact on this type of recipe.
+[05Dec2024 17:27:54.505] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/lime_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -2015,8 +1827,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.162] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:coking recipe (tfmg:coking/coal_coke) specified a duration. Durations have no impact on this type of recipe.
-[05Dec2024 16:50:58.163] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/purple_concrete_q
+[05Dec2024 17:27:54.507] [main/WARN] [com.simibubi.create.Create/]: Your custom tfmg:coking recipe (tfmg:coking/coal_coke) specified a duration. Durations have no impact on this type of recipe.
+[05Dec2024 17:27:54.509] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/purple_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -2053,7 +1865,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.169] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/welding_machine
+[05Dec2024 17:27:54.511] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/welding_machine
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:welding_machine'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
@@ -2084,7 +1896,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:welding_machine'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.175] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:fractional_distillation/crude_oil_sus
+[05Dec2024 17:27:54.515] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:fractional_distillation/crude_oil_sus
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfmg:advanced_distillation'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -2111,7 +1923,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'tfmg:ad
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.193] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/pumpjack_hammer_holder
+[05Dec2024 17:27:54.526] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:mechanical_crafting/pumpjack_hammer_holder
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:pumpjack_hammer_holder'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
@@ -2143,7 +1955,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:pumpjack_hammer_holder'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.202] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/blue_concrete_q
+[05Dec2024 17:27:54.535] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:colored_concrete/full_block/blue_concrete_q
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -2180,7 +1992,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:mesh_concrete'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.217] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_sortingwood_stack
+[05Dec2024 17:27:54.551] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_sortingwood_stack
 com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:sorting_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -2216,7 +2028,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:sorting_planks
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.230] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/battery
+[05Dec2024 17:27:54.562] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe tfmg:crafting/battery
 com.google.gson.JsonSyntaxException: Unknown item 'tfmg:battery'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23170!/:?]
@@ -2247,7 +2059,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'tfmg:battery'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.244] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_stack_starlit
+[05Dec2024 17:27:54.570] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_stack_starlit
 com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:starlit_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -2283,7 +2095,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'blue_skies:starlit_planks'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.258] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_transwood_stack
+[05Dec2024 17:27:54.583] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe blocksyouneed_luna:plank_transwood_stack
 com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:transformation_planks'
 	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23165!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -2319,71 +2131,64 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:transformation
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Dec2024 16:50:58.277] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 30 recipes
-[05Dec2024 16:50:58.814] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3791 advancements
-[05Dec2024 16:50:58.834] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[05Dec2024 16:50:58.844] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[05Dec2024 16:50:58.846] [main/INFO] [Dungeon Crawl/]: Loading data...
-[05Dec2024 16:50:59.748] [main/INFO] [Dungeon Crawl/]: Done.
-[05Dec2024 16:50:59.753] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id pamhc2crops:fern_drops - error: Not a JSON object: null
-[05Dec2024 16:50:59.753] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id pamhc2crops:grass_drops - error: Not a JSON object: null
-[05Dec2024 16:50:59.754] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id pamhc2crops:tall_grass_drops - error: Not a JSON object: null
-[05Dec2024 16:50:59.811] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: forge:is_savanna
-[05Dec2024 16:51:05.072] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[05Dec2024 16:51:05.072] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[05Dec2024 16:51:05.073] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[05Dec2024 16:51:05.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[05Dec2024 16:51:05.283] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[05Dec2024 16:51:05.366] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[05Dec2024 16:51:05.504] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05Dec2024 16:51:05.505] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[05Dec2024 16:51:05.505] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05Dec2024 16:51:05.506] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[05Dec2024 16:51:05.533] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[05Dec2024 16:51:05.534] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[05Dec2024 16:51:05.535] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[05Dec2024 16:51:05.819] [Server thread/INFO] [Framework/]: Loading server configs...
-[05Dec2024 16:51:05.852] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[05Dec2024 16:51:15.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[05Dec2024 16:51:25.643] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.644] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.645] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.646] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.647] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.648] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.650] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.651] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.653] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.656] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.658] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.660] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.662] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.663] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.665] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.669] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.670] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.672] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.676] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.694] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:25.695] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:26.008] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:26.508] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:27.073] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Dec2024 16:51:27.506] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11999 ms
-[05Dec2024 16:51:27.507] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (21.984s)! For help, type "help"
-[05Dec2024 16:51:27.657] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[05Dec2024 16:51:27.722] [Server thread/INFO] [com.drmangotea.tfmg.CreateTFMG/]: YEEEHAAW
-[05Dec2024 16:51:27.724] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[05Dec2024 16:51:27.724] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[05Dec2024 16:56:10.183] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[05Dec2024 16:56:10.320] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jony33D[/100.99.110.121:63950] logged in with entity id 623 at (-1357.232814246176, 33.0625, 285.82295717104967)
-[05Dec2024 16:56:10.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D joined the game
-[05Dec2024 16:56:12.873] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
-[05Dec2024 16:56:15.402] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntitySeagull['Seagull'/791, l='ServerLevel[world]', x=-1199.96, y=67.00, z=150.05]
-[05Dec2024 16:56:19.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D was slain by Zombie
-[05Dec2024 16:56:19.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has made the advancement [Your First Grave]
-[05Dec2024 16:56:19.929] [Server thread/INFO] [tombstone/]: The player jony33D has successfully been saved
-[05Dec2024 16:57:26.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has reached the goal [Here They Come]
-[05Dec2024 17:03:10.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has made the advancement [Isn't It Iron Pick]
-[05Dec2024 17:04:15.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has made the advancement [Not Today, Thank You]
-[05Dec2024 17:07:58.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has made the advancement [Suit Up]
+[05Dec2024 17:27:54.603] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 30 recipes
+[05Dec2024 17:27:55.040] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3791 advancements
+[05Dec2024 17:27:55.056] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[05Dec2024 17:27:55.066] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[05Dec2024 17:27:55.068] [main/INFO] [Dungeon Crawl/]: Loading data...
+[05Dec2024 17:27:55.480] [main/INFO] [Dungeon Crawl/]: Done.
+[05Dec2024 17:27:55.485] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id pamhc2crops:fern_drops - error: Not a JSON object: null
+[05Dec2024 17:27:55.486] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id pamhc2crops:grass_drops - error: Not a JSON object: null
+[05Dec2024 17:27:55.486] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id pamhc2crops:tall_grass_drops - error: Not a JSON object: null
+[05Dec2024 17:27:55.502] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: forge:is_savanna
+[05Dec2024 17:28:00.542] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[05Dec2024 17:28:00.542] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[05Dec2024 17:28:00.543] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[05Dec2024 17:28:00.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[05Dec2024 17:28:00.937] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[05Dec2024 17:28:00.970] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[05Dec2024 17:28:01.084] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05Dec2024 17:28:01.085] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[05Dec2024 17:28:01.085] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05Dec2024 17:28:01.086] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[05Dec2024 17:28:01.147] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[05Dec2024 17:28:01.160] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[05Dec2024 17:28:01.161] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[05Dec2024 17:28:01.629] [Server thread/INFO] [Framework/]: Loading server configs...
+[05Dec2024 17:28:01.665] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[05Dec2024 17:28:02.133] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[05Dec2024 17:28:11.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[05Dec2024 17:28:21.041] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.652] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.653] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.654] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.654] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.655] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.655] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.656] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.660] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.661] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.662] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.662] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.662] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.663] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.664] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.664] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.667] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.668] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.669] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.670] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:21.672] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:22.168] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:22.629] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:23.158] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Dec2024 17:28:23.475] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11848 ms
+[05Dec2024 17:28:23.476] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (22.349s)! For help, type "help"
+[05Dec2024 17:28:23.583] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[05Dec2024 17:28:23.633] [Server thread/INFO] [com.drmangotea.tfmg.CreateTFMG/]: YEEEHAAW
+[05Dec2024 17:28:23.636] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[05Dec2024 17:28:23.636] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[05Dec2024 17:29:40.299] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[05Dec2024 17:29:40.399] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jony33D[/100.99.110.121:64250] logged in with entity id 620 at (-1327.195221428434, 15.0, 215.42035846939405)
+[05Dec2024 17:29:40.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D joined the game
+[05Dec2024 17:29:44.753] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
