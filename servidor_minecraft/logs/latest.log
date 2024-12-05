@@ -2198,3 +2198,5 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:transformation
 [05Dec2024 23:32:00.831] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jony33D lost connection: Flying is not enabled on this server
 [05Dec2024 23:32:00.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D left the game
 [05Dec2024 23:32:34.622] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@32732c7e[id=<null>,name=jony33D,properties={},legacy=false] (/100.99.110.121:50838) lost connection: Disconnected
+[05Dec2024 23:37:33.936] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jony33D[/100.99.110.121:50949] logged in with entity id 2275 at (-1725.5075601126684, 63.83896429326534, 366.07287408293)
+[05Dec2024 23:37:33.996] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D joined the game
