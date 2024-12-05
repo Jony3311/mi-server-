@@ -11277,3 +11277,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:transformation
 [05Dec2024 22:15:10.992] [Worker-Main-9/DEBUG] [mixin/]: Mixing WorldGenRegionAccessor from cataclysm.mixins.json into net.minecraft.server.level.WorldGenRegion
 [05Dec2024 22:15:10.997] [Worker-Main-9/DEBUG] [mixin/]: Mixing gen.WorldGenRegionMixin from iceandfire.mixins.json into net.minecraft.server.level.WorldGenRegion
 [05Dec2024 22:15:12.197] [Worker-Main-9/DEBUG] [mixin/]: Mixing accessor.BeardifierAccessor from cataclysm.mixins.json into net.minecraft.world.level.levelgen.Beardifier
+[05Dec2024 22:18:13.062] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Dec2024 22:18:13.085] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Dec2024 22:18:27.602] [Server thread/DEBUG] [mixin/]: Mixing ContainerLevelAccessMixin from railways.mixins.json into net.minecraft.world.inventory.ContainerLevelAccess
+[05Dec2024 22:23:13.038] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Dec2024 22:23:13.066] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
