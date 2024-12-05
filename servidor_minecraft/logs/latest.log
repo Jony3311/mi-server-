@@ -2199,3 +2199,4 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:transformation
 [05Dec2024 22:02:13.762] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
 [05Dec2024 22:02:13.865] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jony33D[/100.99.110.121:50190] logged in with entity id 612 at (-1341.2390911583097, -3.0, 268.7402685604027)
 [05Dec2024 22:02:14.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D joined the game
+[05Dec2024 22:06:59.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has reached the goal [Bone Crusher]

@@ -456,6 +456,7 @@
       "beef": "2024-12-05 17:59:48 +0000",
       "bread": "2024-12-05 18:02:14 +0000",
       "golden_apple": "2024-12-05 17:43:35 +0000",
+      "rotten_flesh": "2024-12-05 22:11:46 +0000",
       "carrot": "2024-12-05 17:44:31 +0000"
     },
     "done": false
@@ -1801,6 +1802,12 @@
   "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
     "criteria": {
       "has_cobbled_deepslate": "2024-12-05 17:59:40 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2024-12-05 22:06:59 +0000"
     },
     "done": true
   },
