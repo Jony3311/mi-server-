@@ -2192,3 +2192,5 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:transformation
 [05Dec2024 17:29:40.399] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jony33D[/100.99.110.121:64250] logged in with entity id 620 at (-1327.195221428434, 15.0, 215.42035846939405)
 [05Dec2024 17:29:40.613] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D joined the game
 [05Dec2024 17:29:44.753] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
+[05Dec2024 17:36:10.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has made the advancement [Diamonds!]
+[05Dec2024 17:51:16.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has made the advancement [Cover Me with Diamonds]
