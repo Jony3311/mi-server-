@@ -2894,12 +2894,6 @@
     },
     "done": true
   },
-  "iceandfire:recipes/building_blocks/ash": {
-    "criteria": {
-      "has_item": "2024-12-07 23:31:56 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
     "criteria": {
       "has_salmon": "2024-12-07 23:29:08 +0000"
@@ -2912,15 +2906,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2024-12-07 23:29:08 +0000"
+    },
+    "done": true
+  },
   "tombstone:adventure/chain_death": {
     "criteria": {
       "coded_trigger": "2024-12-07 23:29:55 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+  "iceandfire:recipes/building_blocks/ash": {
     "criteria": {
-      "has_salmon": "2024-12-07 23:29:08 +0000"
+      "has_item": "2024-12-07 23:31:56 +0000"
     },
     "done": true
   },

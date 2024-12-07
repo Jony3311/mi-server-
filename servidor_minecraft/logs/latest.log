@@ -2222,3 +2222,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:transformation
 [07Dec2024 23:34:00.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D was turned into KFC by Fire Dragon
 [07Dec2024 23:34:00.084] [Server thread/INFO] [tombstone/]: The player jony33D has successfully been saved
 [07Dec2024 23:34:04.415] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2562ms or 51 ticks behind
+[07Dec2024 23:37:04.516] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jony33D lost connection: Disconnected
+[07Dec2024 23:37:04.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D left the game
+[07Dec2024 23:40:53.110] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7dc37115[id=<null>,name=jony33D,properties={},legacy=false] (/100.99.110.121:52053) lost connection: Internal Exception: java.util.ConcurrentModificationException
+[07Dec2024 23:41:12.792] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: jony33D[/100.99.110.121:52059] logged in with entity id 5625 at (-2478.5, 63.0, -2265.5)
+[07Dec2024 23:41:12.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D joined the game
+[07Dec2024 23:41:14.969] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[07Dec2024 23:44:22.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has made the advancement [Take Aim]
