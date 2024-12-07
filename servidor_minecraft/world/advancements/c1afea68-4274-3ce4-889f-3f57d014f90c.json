@@ -32,16 +32,22 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2024-12-05 02:03:45 +0000",
+      "minecraft:old_growth_pine_taiga": "2024-12-07 00:54:01 +0000",
       "minecraft:taiga": "2024-12-05 23:00:01 +0000",
+      "minecraft:frozen_river": "2024-12-07 00:46:58 +0000",
       "minecraft:cherry_grove": "2024-12-05 02:03:43 +0000",
       "minecraft:beach": "2024-12-05 22:17:19 +0000",
       "minecraft:river": "2024-12-05 02:09:32 +0000",
       "minecraft:stony_shore": "2024-12-05 02:11:17 +0000",
+      "minecraft:snowy_plains": "2024-12-07 00:47:56 +0000",
+      "minecraft:snowy_taiga": "2024-12-07 00:46:45 +0000",
       "minecraft:grove": "2024-12-05 23:09:13 +0000",
       "minecraft:cold_ocean": "2024-12-05 22:58:25 +0000",
       "minecraft:forest": "2024-12-05 22:58:43 +0000",
+      "minecraft:deep_cold_ocean": "2024-12-07 00:32:27 +0000",
       "minecraft:ice_spikes": "2024-12-05 17:10:04 +0000",
       "minecraft:frozen_ocean": "2024-12-05 22:15:52 +0000",
+      "minecraft:old_growth_spruce_taiga": "2024-12-07 00:53:25 +0000",
       "minecraft:meadow": "2024-12-05 23:05:16 +0000",
       "minecraft:plains": "2024-12-05 01:50:40 +0000"
     },
@@ -2272,6 +2278,156 @@
   "tombstone:adventure/teleport_to_grave": {
     "criteria": {
       "coded_trigger": "2024-12-05 23:12:49 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_bone_wall": {
+    "criteria": {
+      "has_item": "2024-12-07 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_flute": {
+    "criteria": {
+      "has_item": "2024-12-07 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/skull_to_bone_meal": {
+    "criteria": {
+      "has_item": "2024-12-07 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/nest": {
+    "criteria": {
+      "has_item": "2024-12-07 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/dragonbone_bow": {
+    "criteria": {
+      "has_item": "2024-12-07 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragon_bone_block": {
+    "criteria": {
+      "has_dragonbone": "2024-12-07 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2024-12-07 00:33:11 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_hoe": {
+    "criteria": {
+      "has_item": "2024-12-07 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/christmas": {
+    "criteria": {
+      "coded_trigger": "2024-12-07 00:27:47 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/villager_gift": {
+    "criteria": {
+      "coded_trigger": "2024-12-07 00:41:33 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/mysterious_gift": {
+    "criteria": {
+      "coded_trigger": "2024-12-07 00:27:47 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_shovel": {
+    "criteria": {
+      "has_item": "2024-12-07 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-12-07 01:19:08 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_axe": {
+    "criteria": {
+      "has_item": "2024-12-07 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-12-07 00:33:11 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_familiar_receptacle": {
+    "criteria": {
+      "has_receptacle_of_familiar": "2024-12-07 00:41:33 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_pickaxe": {
+    "criteria": {
+      "has_item": "2024-12-07 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_tablet": {
+    "criteria": {
+      "has_magic_tablet": "2024-12-07 00:41:33 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/grizzly_bear": {
+    "criteria": {
+      "killed_by": "2024-12-07 01:08:44 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/find_ancient_tablet": {
+    "criteria": {
+      "has_ancient_tablet": "2024-12-07 00:41:33 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_guard": {
+    "criteria": {
+      "coded_trigger": "2024-12-07 00:42:28 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/tools/dragonbone_sword": {
+    "criteria": {
+      "has_item": "2024-12-07 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2024-12-07 00:33:19 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_horn": {
+    "criteria": {
+      "has_item": "2024-12-07 00:47:52 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/misc/dragon_stick": {
+    "criteria": {
+      "has_item": "2024-12-07 00:47:52 +0000"
     },
     "done": true
   },
