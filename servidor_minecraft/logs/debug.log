@@ -11311,3 +11311,10 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:transformation
 [07Dec2024 17:20:26.443] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [07Dec2024 17:25:26.399] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [07Dec2024 17:25:26.415] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Dec2024 17:30:26.402] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Dec2024 17:30:26.419] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Dec2024 17:30:29.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has made the advancement [Black or White]
+[07Dec2024 17:31:16.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has reached the goal [A Small Cemetery]
+[07Dec2024 17:34:08.433] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has made the advancement [First Prayer]
+[07Dec2024 17:35:26.409] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Dec2024 17:35:26.461] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
