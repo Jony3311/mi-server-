@@ -472,6 +472,7 @@
       "bread": "2024-12-05 18:02:14 +0000",
       "golden_apple": "2024-12-05 17:43:35 +0000",
       "rotten_flesh": "2024-12-05 22:11:46 +0000",
+      "cooked_salmon": "2024-12-07 23:44:46 +0000",
       "carrot": "2024-12-05 17:44:31 +0000"
     },
     "done": false
@@ -2921,6 +2922,72 @@
   "iceandfire:recipes/building_blocks/ash": {
     "criteria": {
       "has_item": "2024-12-07 23:31:56 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_green_leggings": {
+    "criteria": {
+      "has_item": "2024-12-07 23:47:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-12-07 23:44:22 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_green_helmet": {
+    "criteria": {
+      "has_item": "2024-12-07 23:47:10 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_if_dragon": {
+    "criteria": {
+      "killed_fire_dragon": "2024-12-07 23:46:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-12-07 23:52:27 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_green_chestplate": {
+    "criteria": {
+      "has_item": "2024-12-07 23:47:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2024-12-07 23:46:57 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/dragonscales_green_to_dragonscale_green": {
+    "criteria": {
+      "has_dragonscales_green": "2024-12-07 23:47:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2024-12-07 23:46:57 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/armor_green_boots": {
+    "criteria": {
+      "has_item": "2024-12-07 23:47:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-12-07 23:52:27 +0000"
     },
     "done": true
   },

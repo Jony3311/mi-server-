@@ -11978,3 +11978,211 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:transformation
 [07Dec2024 23:43:20.451] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [07Dec2024 23:43:20.555] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [07Dec2024 23:44:22.876] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has made the advancement [Take Aim]
+[07Dec2024 23:46:43.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has made the advancement [Dragonslayer]
+[07Dec2024 23:47:30.845] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/room/spawner_room_2 with rotation NONE at (-2948 | 50 | -2353)
+[07Dec2024 23:47:30.846] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/room/spawner_room_2 with rotation NONE at (-2948 | 50 | -2353)
+[07Dec2024 23:48:17.300] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jony33D moved too quickly! -3.3957411134215363,1.4199999868869781,9.52677973213622
+[07Dec2024 23:48:20.485] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Dec2024 23:48:20.537] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Dec2024 23:48:25.115] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/connector/connector_2 with rotation CLOCKWISE_180 at (-2962 | 50 | -2361)
+[07Dec2024 23:48:25.121] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/connector/connector_2 with rotation CLOCKWISE_180 at (-2962 | 50 | -2361)
+[07Dec2024 23:48:25.121] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/room/spawner_room with rotation NONE at (-2957 | 50 | -2362)
+[07Dec2024 23:48:25.129] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/room/spawner_room with rotation NONE at (-2957 | 50 | -2362)
+[07Dec2024 23:48:25.129] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/room/spawner_room_2 with rotation NONE at (-2948 | 50 | -2353)
+[07Dec2024 23:48:25.129] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/room/spawner_room_2 with rotation NONE at (-2948 | 50 | -2353)
+[07Dec2024 23:48:25.284] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/node_connector with rotation NONE at (-2964 | 50 | -2360)
+[07Dec2024 23:48:25.284] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/node_connector with rotation NONE at (-2964 | 50 | -2360)
+[07Dec2024 23:48:25.285] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/connector/connector_2 with rotation CLOCKWISE_180 at (-2962 | 50 | -2361)
+[07Dec2024 23:48:25.285] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/connector/connector_2 with rotation CLOCKWISE_180 at (-2962 | 50 | -2361)
+[07Dec2024 23:48:25.285] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/room with rotation NONE at (-2977 | 50 | -2364)
+[07Dec2024 23:48:25.288] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/room with rotation NONE at (-2977 | 50 | -2364)
+[07Dec2024 23:48:25.300] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/secret_room_entrance with rotation CLOCKWISE_180 at (-2990 | 50 | -2356)
+[07Dec2024 23:48:25.301] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/secret_room_entrance with rotation CLOCKWISE_180 at (-2990 | 50 | -2356)
+[07Dec2024 23:48:25.301] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/variant with rotation NONE at (-2990 | 50 | -2361)
+[07Dec2024 23:48:25.301] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/variant with rotation NONE at (-2990 | 50 | -2361)
+[07Dec2024 23:48:25.301] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/corridor/secret_room_entrance with rotation CLOCKWISE_180 at (-2993 | 50 | -2361)
+[07Dec2024 23:48:25.303] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/corridor/secret_room_entrance with rotation CLOCKWISE_180 at (-2993 | 50 | -2361)
+[07Dec2024 23:48:25.303] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/room/secret_room with rotation CLOCKWISE_90 at (-2993 | 50 | -2353)
+[07Dec2024 23:48:25.303] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/room/secret_room with rotation CLOCKWISE_90 at (-2993 | 50 | -2353)
+[07Dec2024 23:48:25.303] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/node_connector with rotation CLOCKWISE_180 at (-2979 | 50 | -2360)
+[07Dec2024 23:48:25.304] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/node_connector with rotation CLOCKWISE_180 at (-2979 | 50 | -2360)
+[07Dec2024 23:48:25.304] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/connector/connector_3 with rotation NONE at (-2984 | 50 | -2361)
+[07Dec2024 23:48:25.304] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/connector/connector_3 with rotation NONE at (-2984 | 50 | -2361)
+[07Dec2024 23:48:25.304] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/room with rotation NONE at (-2977 | 50 | -2364)
+[07Dec2024 23:48:25.304] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/room with rotation NONE at (-2977 | 50 | -2364)
+[07Dec2024 23:48:25.587] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/connector/connector_3 with rotation CLOCKWISE_180 at (-2998 | 50 | -2361)
+[07Dec2024 23:48:25.587] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/connector/connector_3 with rotation CLOCKWISE_180 at (-2998 | 50 | -2361)
+[07Dec2024 23:48:25.587] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/fireplace with rotation CLOCKWISE_180 at (-3015 | 50 | -2366)
+[07Dec2024 23:48:25.599] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/fireplace with rotation CLOCKWISE_180 at (-3015 | 50 | -2366)
+[07Dec2024 23:48:25.599] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/corridor/secret_room_entrance with rotation CLOCKWISE_180 at (-2993 | 50 | -2361)
+[07Dec2024 23:48:25.600] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/corridor/secret_room_entrance with rotation CLOCKWISE_180 at (-2993 | 50 | -2361)
+[07Dec2024 23:48:25.600] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/room/secret_room with rotation CLOCKWISE_90 at (-2993 | 50 | -2353)
+[07Dec2024 23:48:25.600] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/room/secret_room with rotation CLOCKWISE_90 at (-2993 | 50 | -2353)
+[07Dec2024 23:48:55.287] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/fireplace with rotation CLOCKWISE_180 at (-3015 | 50 | -2366)
+[07Dec2024 23:48:55.298] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/fireplace with rotation CLOCKWISE_180 at (-3015 | 50 | -2366)
+[07Dec2024 23:49:00.196] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/node_connector with rotation CLOCKWISE_90 at (-2973 | 50 | -2351)
+[07Dec2024 23:49:00.197] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/node_connector with rotation CLOCKWISE_90 at (-2973 | 50 | -2351)
+[07Dec2024 23:49:00.197] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/connector/connector_3 with rotation COUNTERCLOCKWISE_90 at (-2974 | 50 | -2349)
+[07Dec2024 23:49:00.197] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/connector/connector_3 with rotation COUNTERCLOCKWISE_90 at (-2974 | 50 | -2349)
+[07Dec2024 23:49:00.197] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/room with rotation NONE at (-2977 | 50 | -2364)
+[07Dec2024 23:49:00.197] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/room with rotation NONE at (-2977 | 50 | -2364)
+[07Dec2024 23:49:00.199] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/corridor/corridor_2 with rotation COUNTERCLOCKWISE_90 at (-2974 | 50 | -2344)
+[07Dec2024 23:49:00.199] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/corridor/corridor_2 with rotation COUNTERCLOCKWISE_90 at (-2974 | 50 | -2344)
+[07Dec2024 23:49:00.214] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/room with rotation CLOCKWISE_180 at (-2995 | 59 | -2337)
+[07Dec2024 23:49:00.214] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/room with rotation CLOCKWISE_180 at (-2995 | 59 | -2337)
+[07Dec2024 23:49:00.214] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/room/secret_room with rotation CLOCKWISE_90 at (-2993 | 50 | -2353)
+[07Dec2024 23:49:00.216] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/room/secret_room with rotation CLOCKWISE_90 at (-2993 | 50 | -2353)
+[07Dec2024 23:49:00.216] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/room with rotation NONE at (-2977 | 50 | -2364)
+[07Dec2024 23:49:00.216] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/room with rotation NONE at (-2977 | 50 | -2364)
+[07Dec2024 23:49:00.649] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/room with rotation CLOCKWISE_180 at (-2995 | 59 | -2337)
+[07Dec2024 23:49:00.649] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/room with rotation CLOCKWISE_180 at (-2995 | 59 | -2337)
+[07Dec2024 23:49:00.649] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/fireplace with rotation CLOCKWISE_180 at (-3015 | 50 | -2366)
+[07Dec2024 23:49:00.649] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/fireplace with rotation CLOCKWISE_180 at (-3015 | 50 | -2366)
+[07Dec2024 23:49:00.649] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/room/secret_room with rotation CLOCKWISE_90 at (-2993 | 50 | -2353)
+[07Dec2024 23:49:00.650] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/room/secret_room with rotation CLOCKWISE_90 at (-2993 | 50 | -2353)
+[07Dec2024 23:49:00.663] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/fireplace with rotation CLOCKWISE_180 at (-3015 | 50 | -2366)
+[07Dec2024 23:49:00.663] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/fireplace with rotation CLOCKWISE_180 at (-3015 | 50 | -2366)
+[07Dec2024 23:49:06.745] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/node_connector with rotation NONE at (-2982 | 59 | -2333)
+[07Dec2024 23:49:06.746] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/node_connector with rotation NONE at (-2982 | 59 | -2333)
+[07Dec2024 23:49:06.746] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/connector/connector_6 with rotation CLOCKWISE_180 at (-2980 | 59 | -2334)
+[07Dec2024 23:49:06.746] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/connector/connector_6 with rotation CLOCKWISE_180 at (-2980 | 59 | -2334)
+[07Dec2024 23:49:06.746] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/room with rotation CLOCKWISE_180 at (-2995 | 59 | -2337)
+[07Dec2024 23:49:06.747] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/room with rotation CLOCKWISE_180 at (-2995 | 59 | -2337)
+[07Dec2024 23:49:06.747] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/room/secret_room with rotation CLOCKWISE_90 at (-2993 | 50 | -2353)
+[07Dec2024 23:49:06.747] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/room/secret_room with rotation CLOCKWISE_90 at (-2993 | 50 | -2353)
+[07Dec2024 23:49:06.810] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/connector/connector_6 with rotation CLOCKWISE_180 at (-2980 | 59 | -2334)
+[07Dec2024 23:49:06.811] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/connector/connector_6 with rotation CLOCKWISE_180 at (-2980 | 59 | -2334)
+[07Dec2024 23:49:06.811] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/stairs_top with rotation NONE at (-2975 | 59 | -2335)
+[07Dec2024 23:49:06.811] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/stairs_top with rotation NONE at (-2975 | 59 | -2335)
+[07Dec2024 23:49:06.812] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/chest with rotation COUNTERCLOCKWISE_90 at (-2974 | 59 | -2321)
+[07Dec2024 23:49:06.812] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/chest with rotation COUNTERCLOCKWISE_90 at (-2974 | 59 | -2321)
+[07Dec2024 23:49:06.812] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/variant with rotation COUNTERCLOCKWISE_90 at (-2974 | 59 | -2325)
+[07Dec2024 23:49:06.812] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/variant with rotation COUNTERCLOCKWISE_90 at (-2974 | 59 | -2325)
+[07Dec2024 23:49:06.812] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/chest with rotation CLOCKWISE_90 at (-2969 | 59 | -2321)
+[07Dec2024 23:49:06.812] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/chest with rotation CLOCKWISE_90 at (-2969 | 59 | -2321)
+[07Dec2024 23:49:06.812] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/crops with rotation CLOCKWISE_90 at (-2969 | 59 | -2325)
+[07Dec2024 23:49:06.819] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/crops with rotation CLOCKWISE_90 at (-2969 | 59 | -2325)
+[07Dec2024 23:49:06.820] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/corridor/corridor_3 with rotation COUNTERCLOCKWISE_90 at (-2973 | 59 | -2326)
+[07Dec2024 23:49:06.835] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/corridor/corridor_3 with rotation COUNTERCLOCKWISE_90 at (-2973 | 59 | -2326)
+[07Dec2024 23:49:06.835] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/corridor/corridor_2 with rotation COUNTERCLOCKWISE_90 at (-2974 | 50 | -2344)
+[07Dec2024 23:49:06.835] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/corridor/corridor_2 with rotation COUNTERCLOCKWISE_90 at (-2974 | 50 | -2344)
+[07Dec2024 23:49:06.835] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/stairs_bottom with rotation NONE at (-2975 | 50 | -2335)
+[07Dec2024 23:49:06.835] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/stairs_bottom with rotation NONE at (-2975 | 50 | -2335)
+[07Dec2024 23:49:06.835] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/crops with rotation CLOCKWISE_90 at (-2969 | 50 | -2325)
+[07Dec2024 23:49:06.837] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/crops with rotation CLOCKWISE_90 at (-2969 | 50 | -2325)
+[07Dec2024 23:49:06.840] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/variant_2 with rotation CLOCKWISE_90 at (-2969 | 50 | -2321)
+[07Dec2024 23:49:06.840] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/variant_2 with rotation CLOCKWISE_90 at (-2969 | 50 | -2321)
+[07Dec2024 23:49:06.840] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/fire with rotation COUNTERCLOCKWISE_90 at (-2976 | 50 | -2325)
+[07Dec2024 23:49:06.840] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/fire with rotation COUNTERCLOCKWISE_90 at (-2976 | 50 | -2325)
+[07Dec2024 23:49:06.840] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/bookshelf with rotation COUNTERCLOCKWISE_90 at (-2974 | 50 | -2321)
+[07Dec2024 23:49:06.840] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/bookshelf with rotation COUNTERCLOCKWISE_90 at (-2974 | 50 | -2321)
+[07Dec2024 23:49:06.840] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/corridor/corridor_3 with rotation CLOCKWISE_90 at (-2973 | 50 | -2326)
+[07Dec2024 23:49:06.840] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/corridor/corridor_3 with rotation CLOCKWISE_90 at (-2973 | 50 | -2326)
+[07Dec2024 23:49:06.840] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/default with rotation NONE at (-2963 | 50 | -2334)
+[07Dec2024 23:49:06.840] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/default with rotation NONE at (-2963 | 50 | -2334)
+[07Dec2024 23:49:06.840] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/spawner with rotation CLOCKWISE_180 at (-2963 | 50 | -2329)
+[07Dec2024 23:49:06.855] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/spawner with rotation CLOCKWISE_180 at (-2963 | 50 | -2329)
+[07Dec2024 23:49:06.856] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/corridor/corridor with rotation NONE at (-2966 | 50 | -2334)
+[07Dec2024 23:49:06.856] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/corridor/corridor with rotation NONE at (-2966 | 50 | -2334)
+[07Dec2024 23:49:07.545] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/room with rotation CLOCKWISE_180 at (-2995 | 59 | -2337)
+[07Dec2024 23:49:07.547] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/room with rotation CLOCKWISE_180 at (-2995 | 59 | -2337)
+[07Dec2024 23:49:07.548] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/room/secret_room with rotation CLOCKWISE_90 at (-2993 | 50 | -2353)
+[07Dec2024 23:49:07.548] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/room/secret_room with rotation CLOCKWISE_90 at (-2993 | 50 | -2353)
+[07Dec2024 23:50:30.977] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/chest with rotation COUNTERCLOCKWISE_90 at (-2974 | 59 | -2321)
+[07Dec2024 23:50:30.978] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/chest with rotation COUNTERCLOCKWISE_90 at (-2974 | 59 | -2321)
+[07Dec2024 23:50:30.978] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/chest with rotation CLOCKWISE_90 at (-2969 | 59 | -2321)
+[07Dec2024 23:50:30.978] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/chest with rotation CLOCKWISE_90 at (-2969 | 59 | -2321)
+[07Dec2024 23:50:30.978] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/corridor/corridor_3 with rotation COUNTERCLOCKWISE_90 at (-2973 | 59 | -2326)
+[07Dec2024 23:50:30.979] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/corridor/corridor_3 with rotation COUNTERCLOCKWISE_90 at (-2973 | 59 | -2326)
+[07Dec2024 23:50:30.979] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/connector/connector with rotation CLOCKWISE_90 at (-2973 | 59 | -2317)
+[07Dec2024 23:50:30.979] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/connector/connector with rotation CLOCKWISE_90 at (-2973 | 59 | -2317)
+[07Dec2024 23:50:30.979] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/connector/connector_4 with rotation CLOCKWISE_180 at (-2962 | 59 | -2306)
+[07Dec2024 23:50:30.979] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/connector/connector_4 with rotation CLOCKWISE_180 at (-2962 | 59 | -2306)
+[07Dec2024 23:50:30.979] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/fireplace with rotation CLOCKWISE_180 at (-2979 | 59 | -2312)
+[07Dec2024 23:50:30.980] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/fireplace with rotation CLOCKWISE_180 at (-2979 | 59 | -2312)
+[07Dec2024 23:50:30.980] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/variant_2 with rotation CLOCKWISE_90 at (-2969 | 50 | -2321)
+[07Dec2024 23:50:30.980] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/variant_2 with rotation CLOCKWISE_90 at (-2969 | 50 | -2321)
+[07Dec2024 23:50:30.980] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/bookshelf with rotation COUNTERCLOCKWISE_90 at (-2974 | 50 | -2321)
+[07Dec2024 23:50:30.981] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/bookshelf with rotation COUNTERCLOCKWISE_90 at (-2974 | 50 | -2321)
+[07Dec2024 23:50:30.981] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/corridor/corridor_3 with rotation CLOCKWISE_90 at (-2973 | 50 | -2326)
+[07Dec2024 23:50:30.981] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/corridor/corridor_3 with rotation CLOCKWISE_90 at (-2973 | 50 | -2326)
+[07Dec2024 23:50:30.981] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/bookshelf with rotation CLOCKWISE_90 at (-2969 | 50 | -2314)
+[07Dec2024 23:50:30.981] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/bookshelf with rotation CLOCKWISE_90 at (-2969 | 50 | -2314)
+[07Dec2024 23:50:30.981] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/multipart/corridor/variant_2 with rotation COUNTERCLOCKWISE_90 at (-2974 | 50 | -2314)
+[07Dec2024 23:50:30.981] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/multipart/corridor/variant_2 with rotation COUNTERCLOCKWISE_90 at (-2974 | 50 | -2314)
+[07Dec2024 23:50:30.981] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/corridor/corridor with rotation CLOCKWISE_90 at (-2974 | 50 | -2317)
+[07Dec2024 23:50:30.981] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/corridor/corridor with rotation CLOCKWISE_90 at (-2974 | 50 | -2317)
+[07Dec2024 23:50:30.982] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/connector/connector_2 with rotation CLOCKWISE_90 at (-2974 | 50 | -2308)
+[07Dec2024 23:50:30.982] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/connector/connector_2 with rotation CLOCKWISE_90 at (-2974 | 50 | -2308)
+[07Dec2024 23:50:31.048] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/fireplace with rotation CLOCKWISE_180 at (-2979 | 59 | -2312)
+[07Dec2024 23:50:31.048] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/fireplace with rotation CLOCKWISE_180 at (-2979 | 59 | -2312)
+[07Dec2024 23:50:37.455] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:catacombs/node/sewers_fork with rotation CLOCKWISE_180 at (-3015 | 40 | -2276)
+[07Dec2024 23:50:37.459] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:catacombs/node/sewers_fork with rotation CLOCKWISE_180 at (-3015 | 40 | -2276)
+[07Dec2024 23:50:37.663] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:catacombs/node/sewers_fork with rotation CLOCKWISE_180 at (-3015 | 40 | -2276)
+[07Dec2024 23:50:37.665] [Worker-Main-30/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:catacombs/node/sewers_fork with rotation CLOCKWISE_180 at (-3015 | 40 | -2276)
+[07Dec2024 23:51:46.047] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:catacombs/multipart/node/ceiling/flat with rotation CLOCKWISE_180 at (-3009 | 47 | -2270)
+[07Dec2024 23:51:46.047] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:catacombs/multipart/node/ceiling/flat with rotation CLOCKWISE_180 at (-3009 | 47 | -2270)
+[07Dec2024 23:51:46.047] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:catacombs/node/sewers_fork with rotation CLOCKWISE_180 at (-3015 | 40 | -2276)
+[07Dec2024 23:51:46.048] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:catacombs/node/sewers_fork with rotation CLOCKWISE_180 at (-3015 | 40 | -2276)
+[07Dec2024 23:51:46.065] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:catacombs/multipart/node/ceiling/flat with rotation CLOCKWISE_180 at (-3009 | 47 | -2270)
+[07Dec2024 23:51:46.071] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:catacombs/multipart/node/ceiling/flat with rotation CLOCKWISE_180 at (-3009 | 47 | -2270)
+[07Dec2024 23:51:46.071] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/connector/connector_6 with rotation CLOCKWISE_180 at (-2998 | 41 | -2271)
+[07Dec2024 23:51:46.071] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/connector/connector_6 with rotation CLOCKWISE_180 at (-2998 | 41 | -2271)
+[07Dec2024 23:51:46.071] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:catacombs/node/sewers_fork with rotation CLOCKWISE_180 at (-3015 | 40 | -2276)
+[07Dec2024 23:51:46.072] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:catacombs/node/sewers_fork with rotation CLOCKWISE_180 at (-3015 | 40 | -2276)
+[07Dec2024 23:51:46.072] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Building dungeoncrawl:default/node/connector/connector with rotation NONE at (-2993 | 41 | -2270)
+[07Dec2024 23:51:46.073] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Finished building dungeoncrawl:default/node/connector/connector with rotation NONE at (-2993 | 41 | -2270)
+[07Dec2024 23:51:53.248] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jony33D moved too quickly! -8.115534070587728,0.49520087700592796,5.960499471444564
+[07Dec2024 23:52:10.352] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Creating a dungeon at (-3532 | 49 | -2396).
+[07Dec2024 23:52:10.352] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Generating layout for layer 0
+[07Dec2024 23:52:10.354] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Generated Layer 0 with 5(0) Nodes and 3(0) Rooms
+[07Dec2024 23:52:10.354] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Generating layout for layer 1
+[07Dec2024 23:52:10.354] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Generated Layer 1 with 6(0) Nodes and 4(0) Rooms
+[07Dec2024 23:52:10.354] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Generating layout for layer 2
+[07Dec2024 23:52:10.355] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Generated Layer 2 with 5(4) Nodes and 4(0) Rooms
+[07Dec2024 23:52:10.355] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Generating layout for layer 3
+[07Dec2024 23:52:10.356] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Generated Layer 3 with 2(8) Nodes and 4(0) Rooms
+[07Dec2024 23:52:10.357] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Generating layout for layer 4
+[07Dec2024 23:52:10.357] [Worker-Main-42/DEBUG] [Dungeon Crawl/]: Generated Layer 4 with 10(0) Nodes and 4(0) Rooms
+[07Dec2024 23:52:27.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has made the advancement [Ice Bucket Challenge]
+[07Dec2024 23:53:20.443] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Dec2024 23:53:20.463] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Dec2024 23:54:15.275] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jony33D was kicked for floating too long!
+[07Dec2024 23:54:15.277] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: jony33D lost connection: Flying is not enabled on this server
+[07Dec2024 23:54:15.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D left the game
+[07Dec2024 23:54:15.319] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[07Dec2024 23:55:10.477] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Starting new modded impl connection. Found 33 messages to dispatch.
+[07Dec2024 23:55:10.503] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModData' to 'fml:handshake' sequence 0
+[07Dec2024 23:55:10.553] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'net.minecraftforge.network.HandshakeMessages$S2CModList' to 'fml:handshake' sequence 1
+[07Dec2024 23:55:10.603] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:command_argument_type' to 'fml:handshake' sequence 2
+[07Dec2024 23:55:10.654] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:recipe_serializer' to 'fml:handshake' sequence 3
+[07Dec2024 23:55:10.703] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:sound_event' to 'fml:handshake' sequence 4
+[07Dec2024 23:55:10.753] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:particle_type' to 'fml:handshake' sequence 5
+[07Dec2024 23:55:10.803] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:villager_profession' to 'fml:handshake' sequence 6
+[07Dec2024 23:55:10.853] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:item' to 'fml:handshake' sequence 7
+[07Dec2024 23:55:10.903] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:potion' to 'fml:handshake' sequence 8
+[07Dec2024 23:55:10.953] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:painting_variant' to 'fml:handshake' sequence 9
+[07Dec2024 23:55:11.003] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:fluid_type' to 'fml:handshake' sequence 10
+[07Dec2024 23:55:11.053] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block_entity_type' to 'fml:handshake' sequence 11
+[07Dec2024 23:55:11.103] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:display_contexts' to 'fml:handshake' sequence 12
+[07Dec2024 23:55:11.154] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:block' to 'fml:handshake' sequence 13
+[07Dec2024 23:55:11.203] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry forge:entity_data_serializers' to 'fml:handshake' sequence 14
+[07Dec2024 23:55:11.253] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:mob_effect' to 'fml:handshake' sequence 15
+[07Dec2024 23:55:11.303] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:stat_type' to 'fml:handshake' sequence 16
+[07Dec2024 23:55:11.353] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry tombstone:perks' to 'fml:handshake' sequence 17
+[07Dec2024 23:55:11.404] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:menu' to 'fml:handshake' sequence 18
+[07Dec2024 23:55:11.453] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:enchantment' to 'fml:handshake' sequence 19
+[07Dec2024 23:55:11.503] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:fluid' to 'fml:handshake' sequence 20
+[07Dec2024 23:55:11.553] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Registry minecraft:entity_type' to 'fml:handshake' sequence 21
+[07Dec2024 23:55:11.603] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config curios-server.toml' to 'fml:handshake' sequence 22
+[07Dec2024 23:55:11.654] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config journeymap-server.toml' to 'fml:handshake' sequence 23
+[07Dec2024 23:55:11.703] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config pamhc2crops.toml' to 'fml:handshake' sequence 24
+[07Dec2024 23:55:11.753] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config create-server.toml' to 'fml:handshake' sequence 25
+[07Dec2024 23:55:11.803] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config tombstone-server.toml' to 'fml:handshake' sequence 26
+[07Dec2024 23:55:11.853] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config additionalstructures-server.toml' to 'fml:handshake' sequence 27
+[07Dec2024 23:55:11.903] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config pamhc2trees.toml' to 'fml:handshake' sequence 28
+[07Dec2024 23:55:11.953] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config railways-server.toml' to 'fml:handshake' sequence 29
+[07Dec2024 23:55:12.003] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config jei-server.toml' to 'fml:handshake' sequence 30
+[07Dec2024 23:55:12.053] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config forge-server.toml' to 'fml:handshake' sequence 31
+[07Dec2024 23:55:12.103] [Server thread/DEBUG] [net.minecraftforge.network.HandshakeHandler/FMLHANDSHAKE]: Sending ticking packet info 'Config tfmg-server.toml' to 'fml:handshake' sequence 32
+[07Dec2024 23:55:40.503] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@546fce96[id=<null>,name=jony33D,properties={},legacy=false] (/100.99.110.121:52172) lost connection: Timed out
