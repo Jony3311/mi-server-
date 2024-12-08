@@ -2197,3 +2197,4 @@ com.google.gson.JsonSyntaxException: Unknown item 'twilightforest:transformation
 [08Dec2024 22:25:28.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D joined the game
 [08Dec2024 22:25:32.021] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3928ms or 78 ticks behind
 [08Dec2024 22:25:58.518] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11526ms or 230 ticks behind
+[08Dec2024 22:28:28.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: jony33D has made the advancement [Best Friends Forever]
