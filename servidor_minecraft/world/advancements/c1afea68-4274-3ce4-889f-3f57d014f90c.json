@@ -2991,5 +2991,17 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/lectern": {
+    "criteria": {
+      "bestiary": "2024-12-08 00:11:44 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/crocodile": {
+    "criteria": {
+      "killed_by": "2024-12-08 00:14:56 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
